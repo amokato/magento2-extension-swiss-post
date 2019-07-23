@@ -6,7 +6,7 @@
 
     namespace Shopigo\SwissPost\Model\Carrier;
 
-    class Economy extends AbstractCarrier implements CarrierInterface
+    class Economy extends DefaultCarrier
     {
         /**
          * @return string
