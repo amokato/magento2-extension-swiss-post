@@ -202,7 +202,7 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
      */
     public function getAllowedMethods()
     {
-        return [ $ths->_code => $this->getConfigData('name')];
+        return [ $this->_code => $this->getConfigData('name')];
     }
 
     /**
