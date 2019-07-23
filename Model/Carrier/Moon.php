@@ -11,7 +11,7 @@
         /**
          * @return string
          */
-        function getCarrier()
+         protected function getCarrier()
         {
             return 'swisspostmoon';
         }
