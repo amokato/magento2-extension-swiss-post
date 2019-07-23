@@ -70,16 +70,16 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
         \Magento\Shipping\Model\Tracking\Result\StatusFactory $trackStatusFactory,
         array $data = []
     ) {
-        $this->_code = $this->getCarrier();
         $this->rateResultFactory = $rateResultFactory;
         $this->rateMethodFactory = $rateMethodFactory;
         $this->itemPriceCalculator = $itemPriceCalculator;
         $this->trackFactory = $trackFactory;
         $this->trackStatusFactory = $trackStatusFactory;
         parent::__construct($scopeConfig, $rateErrorFactory, $logger, $data);
+        $this->_code = $this->getCarrier();
     }
 
-    abstract protected function getCarrier();
+    abstract function getCarrier();
 
     /**
      * @param int|float $shippingPrice
