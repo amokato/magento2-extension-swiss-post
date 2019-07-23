@@ -44,6 +44,30 @@
                 <showmethod>0</showmethod>
                 <model>Shopigo\SwissPost\Model\Carrier\Express</model>
             </swisspostexpress>
+            <swisspostmond>
+                <active>0</active>
+                <title>Swiss Post</title>
+                <name>PostPac Mond</name>
+                <type>O</type>
+                <handling_type>F</handling_type>
+                <tracking_url><![CDATA[https://www.post.ch/swisspost-tracking?formattedParcelCodes=[code]]]></tracking_url>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+                <showmethod>0</showmethod>
+                <model>Shopigo\SwissPost\Model\Carrier\Express</model>
+            </swisspostmond>
+            <swisspostsaturday>
+                <active>0</active>
+                <title>Swiss Post</title>
+                <name>PostPac Saturday</name>
+                <type>O</type>
+                <handling_type>F</handling_type>
+                <tracking_url><![CDATA[https://www.post.ch/swisspost-tracking?formattedParcelCodes=[code]]]></tracking_url>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+                <showmethod>0</showmethod>
+                <model>Shopigo\SwissPost\Model\Carrier\Express</model>
+            </swisspostsaturday>
         </carriers>
     </default>
 </config>

@@ -1,6 +1,6 @@
 {
-  "name": "shopigo/magento2-extension-swiss-post",
-  "description": "Magento 2 Swiss Post extension by Shopigo",
+  "name": "amokato/magento2-extension-swiss-post",
+  "description": "Magento 2 Swiss Post extension by Shopigo / amokato - fork",
   "require": {
     "php": "^7.0",
     "magento/module-quote": "*",
