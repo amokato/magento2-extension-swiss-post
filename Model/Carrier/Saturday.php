@@ -11,7 +11,7 @@
     use Magento\Shipping\Model\Carrier\CarrierInterface;
     use Magento\Shipping\Model\Rate\Result;
 
-    class Saturday extends AbstractCarrier implements CarrierInterface
+    class Priority extends AbstractCarrier implements CarrierInterface
     {
         /**
          * @var string
