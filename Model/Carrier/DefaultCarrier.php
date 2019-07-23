@@ -90,7 +90,7 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
         /** @var \Magento\Quote\Model\Quote\Address\RateResult\Method $method */
         $method = $this->rateMethodFactory->create();
 
-        $method->setCarrier($ths->_code);
+        $method->setCarrier($this->_code);
         $method->setCarrierTitle($this->getConfigData('title'));
 
         $method->setMethod($this->_code);
