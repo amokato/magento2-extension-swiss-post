@@ -34,7 +34,7 @@
                                                                     <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/default</item>
                                                                 </item>
                                                                 <item name="saturday-rates-validation" xsi:type="array">
-                                                                    <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/saturday</item>
+                                                                    <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/default</item>
                                                                 </item>
                                                             </item>
                                                         </item>
