@@ -13,6 +13,6 @@
          */
         function getCarrier()
         {
-            return 'swisspostsaturday';
+            return 'saturday';
         }
     }

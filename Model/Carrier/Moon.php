@@ -13,6 +13,6 @@
          */
         function getCarrier()
         {
-            return 'swisspostmoon';
+            return 'moon';
         }
     }

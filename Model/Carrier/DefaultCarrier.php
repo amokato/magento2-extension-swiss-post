@@ -19,6 +19,11 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
     protected $_code = null;
 
     /**
+     * @var string
+     */
+    protected $carrier = 'SWP';
+
+    /**
      * @var bool
      */
     protected $_isFixed = true;
@@ -90,7 +95,7 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
         /** @var \Magento\Quote\Model\Quote\Address\RateResult\Method $method */
         $method = $this->rateMethodFactory->create();
 
-        $method->setCarrier($this->_code);
+        $method->setCarrier($this->carrier);
         $method->setCarrierTitle($this->getConfigData('title'));
 
         $method->setMethod($this->_code);
