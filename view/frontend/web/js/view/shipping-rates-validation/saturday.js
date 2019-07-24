@@ -9,19 +9,19 @@ define(
         'uiComponent',
         'Magento_Checkout/js/model/shipping-rates-validator',
         'Magento_Checkout/js/model/shipping-rates-validation-rules',
-        '../../model/shipping-rates-validator/default',
-        '../../model/shipping-rates-validation-rules/default'
+        '../../model/shipping-rates-validator/saturday',
+        '../../model/shipping-rates-validation-rules/saturday'
     ],
     function (
         Component,
         defaultShippingRatesValidator,
         defaultShippingRatesValidationRules,
-        defaultShippingRatesValidator,
-        defaultShippingRatesValidationRules
+        saturdayShippingRatesValidator,
+        saturdayShippingRatesValidationRules
     ) {
         "use strict";
-        defaultShippingRatesValidator.registerValidator('swisspostdefault', defaultShippingRatesValidator);
-        defaultShippingRatesValidationRules.registerRules('swisspostdefault', defaultShippingRatesValidationRules);
+        defaultShippingRatesValidator.registerValidator('swisspostsaturday', saturdayShippingRatesValidator);
+        defaultShippingRatesValidationRules.registerRules('swisspostsaturday', saturdayShippingRatesValidationRules);
         return Component;
     }
 );

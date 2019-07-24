@@ -31,10 +31,10 @@
                                                                     <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/express</item>
                                                                 </item>
                                                                 <item name="mmoon-rates-validation" xsi:type="array">
-                                                                    <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/default</item>
+                                                                    <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/moon</item>
                                                                 </item>
                                                                 <item name="saturday-rates-validation" xsi:type="array">
-                                                                    <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/default</item>
+                                                                    <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/saturday</item>
                                                                 </item>
                                                             </item>
                                                         </item>
