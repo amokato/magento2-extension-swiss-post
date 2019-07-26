@@ -20,8 +20,8 @@ define(
         expressShippingRatesValidationRules
     ) {
         "use strict";
-        defaultShippingRatesValidator.registerValidator('express', expressShippingRatesValidator);
-        defaultShippingRatesValidationRules.registerRules('express', expressShippingRatesValidationRules);
+        defaultShippingRatesValidator.registerValidator('swp_express', expressShippingRatesValidator);
+        defaultShippingRatesValidationRules.registerRules('swp_express', expressShippingRatesValidationRules);
         return Component;
     }
 );

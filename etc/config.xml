@@ -8,7 +8,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <carriers>
-            <swissposteconomy>
+            <swp_economy>
                 <active>0</active>
                 <title>Swiss Post</title>
                 <name>PostPac Economy</name>
@@ -19,8 +19,8 @@
                 <sallowspecific>0</sallowspecific>
                 <showmethod>0</showmethod>
                 <model>Shopigo\SwissPost\Model\Carrier\Economy</model>
-            </swissposteconomy>
-            <swisspostpriority>
+            </swp_economy>
+            <swp_priority>
                 <active>0</active>
                 <title>Swiss Post</title>
                 <name>PostPac Priority</name>
@@ -31,8 +31,8 @@
                 <sallowspecific>0</sallowspecific>
                 <showmethod>0</showmethod>
                 <model>Shopigo\SwissPost\Model\Carrier\Priority</model>
-            </swisspostpriority>
-            <swisspostexpress>
+            </swp_priority>
+            <swp_express>
                 <active>0</active>
                 <title>Swiss Post</title>
                 <name>PostPac Express</name>
@@ -43,8 +43,8 @@
                 <sallowspecific>0</sallowspecific>
                 <showmethod>0</showmethod>
                 <model>Shopigo\SwissPost\Model\Carrier\Express</model>
-            </swisspostexpress>
-            <swisspostmoon>
+            </swp_express>
+            <swp_moon>
                 <active>0</active>
                 <title>Swiss Post</title>
                 <name>PostPac Moon</name>
@@ -55,8 +55,8 @@
                 <sallowspecific>0</sallowspecific>
                 <showmethod>0</showmethod>
                 <model>Shopigo\SwissPost\Model\Carrier\Moon</model>
-            </swisspostmoon>
-            <swisspostsaturday>
+            </swp_moon>
+            <swp_saturday>
                 <active>0</active>
                 <title>Swiss Post</title>
                 <name>PostPac Saturday</name>
@@ -67,7 +67,7 @@
                 <sallowspecific>0</sallowspecific>
                 <showmethod>0</showmethod>
                 <model>Shopigo\SwissPost\Model\Carrier\Saturday</model>
-            </swisspostsaturday>
+            </swp_saturday>
         </carriers>
     </default>
 </config>

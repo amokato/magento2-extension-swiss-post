@@ -20,8 +20,8 @@ define(
         saturdayShippingRatesValidationRules
     ) {
         "use strict";
-        defaultShippingRatesValidator.registerValidator('saturday', saturdayShippingRatesValidator);
-        defaultShippingRatesValidationRules.registerRules('saturday', saturdayShippingRatesValidationRules);
+        defaultShippingRatesValidator.registerValidator('swp_saturday', saturdayShippingRatesValidator);
+        defaultShippingRatesValidationRules.registerRules('swp_saturday', saturdayShippingRatesValidationRules);
         return Component;
     }
 );

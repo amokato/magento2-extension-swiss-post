@@ -21,7 +21,7 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
     /**
      * @var string
      */
-    protected $carrier = 'swisspost';
+    protected $carrier = 'swp_';
 
     /**
      * @var bool
@@ -98,7 +98,7 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
         $method->setCarrier($this->carrier.$this->_code);
         $method->setCarrierTitle($this->getConfigData('title'));
 
-        $method->setMethod($this->_code);
+        $method->setMethod($this->carrier.$this->_code);
         $method->setMethodTitle($this->getConfigData('name'));
 
         $method->setPrice($shippingPrice);

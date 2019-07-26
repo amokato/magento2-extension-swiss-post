@@ -20,8 +20,8 @@ define(
         economyShippingRatesValidationRules
     ) {
         "use strict";
-        defaultShippingRatesValidator.registerValidator('economy', economyShippingRatesValidator);
-        defaultShippingRatesValidationRules.registerRules('economy', economyShippingRatesValidationRules);
+        defaultShippingRatesValidator.registerValidator('swp_economy', economyShippingRatesValidator);
+        defaultShippingRatesValidationRules.registerRules('swp_economy', economyShippingRatesValidationRules);
         return Component;
     }
 );
