@@ -20,8 +20,8 @@ define(
         moonShippingRatesValidationRules
     ) {
         "use strict";
-        defaultShippingRatesValidator.registerValidator('swisspostmoon', moonShippingRatesValidator);
-        defaultShippingRatesValidationRules.registerRules('swisspostmoon', moonShippingRatesValidationRules);
+        defaultShippingRatesValidator.registerValidator('moon', moonShippingRatesValidator);
+        defaultShippingRatesValidationRules.registerRules('moon', moonShippingRatesValidationRules);
         return Component;
     }
 );

@@ -20,8 +20,8 @@ define(
         expressShippingRatesValidationRules
     ) {
         "use strict";
-        defaultShippingRatesValidator.registerValidator('swisspostexpress', expressShippingRatesValidator);
-        defaultShippingRatesValidationRules.registerRules('swisspostexpress', expressShippingRatesValidationRules);
+        defaultShippingRatesValidator.registerValidator('express', expressShippingRatesValidator);
+        defaultShippingRatesValidationRules.registerRules('express', expressShippingRatesValidationRules);
         return Component;
     }
 );
