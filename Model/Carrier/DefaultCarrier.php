@@ -21,7 +21,7 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
     /**
      * @var string
      */
-    protected $carrier = 'SWP';
+    protected $carrier = 'swisspost';
 
     /**
      * @var bool
@@ -95,7 +95,7 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
         /** @var \Magento\Quote\Model\Quote\Address\RateResult\Method $method */
         $method = $this->rateMethodFactory->create();
 
-        $method->setCarrier($this->carrier);
+        $method->setCarrier($this->carrier.$this->_code);
         $method->setCarrierTitle($this->getConfigData('title'));
 
         $method->setMethod($this->_code);
