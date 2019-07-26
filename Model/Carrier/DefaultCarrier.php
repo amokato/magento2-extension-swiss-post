@@ -21,7 +21,7 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
     /**
      * @var string
      */
-    protected $carrier = 'swp_';
+    protected $carrier = 'swisspost';
 
     /**
      * @var bool

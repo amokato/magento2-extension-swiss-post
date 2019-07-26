@@ -20,8 +20,8 @@ define(
         priorityShippingRatesValidationRules
     ) {
         "use strict";
-        defaultShippingRatesValidator.registerValidator('swp_priority', priorityShippingRatesValidator);
-        defaultShippingRatesValidationRules.registerRules('swp_priority', priorityShippingRatesValidationRules);
+        defaultShippingRatesValidator.registerValidator('swisspostpriority', priorityShippingRatesValidator);
+        defaultShippingRatesValidationRules.registerRules('swisspostpriority', priorityShippingRatesValidationRules);
         return Component;
     }
 );

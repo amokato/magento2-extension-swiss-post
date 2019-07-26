@@ -20,8 +20,8 @@ define(
         saturdayShippingRatesValidationRules
     ) {
         "use strict";
-        defaultShippingRatesValidator.registerValidator('swp_saturday', saturdayShippingRatesValidator);
-        defaultShippingRatesValidationRules.registerRules('swp_saturday', saturdayShippingRatesValidationRules);
+        defaultShippingRatesValidator.registerValidator('swisspostsaturday', saturdayShippingRatesValidator);
+        defaultShippingRatesValidationRules.registerRules('swisspostsaturday', saturdayShippingRatesValidationRules);
         return Component;
     }
 );

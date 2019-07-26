@@ -20,8 +20,8 @@ define(
         economyShippingRatesValidationRules
     ) {
         "use strict";
-        defaultShippingRatesValidator.registerValidator('swp_economy', economyShippingRatesValidator);
-        defaultShippingRatesValidationRules.registerRules('swp_economy', economyShippingRatesValidationRules);
+        defaultShippingRatesValidator.registerValidator('swissposteconomy', economyShippingRatesValidator);
+        defaultShippingRatesValidationRules.registerRules('swissposteconomy', economyShippingRatesValidationRules);
         return Component;
     }
 );

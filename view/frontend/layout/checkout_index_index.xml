@@ -21,19 +21,19 @@
                                                     <item name="children" xsi:type="array">
                                                         <item name="shipping-rates-validation" xsi:type="array">
                                                             <item name="children" xsi:type="array">
-                                                                <item name="swp_economy-rates-validation" xsi:type="array">
+                                                                <item name="swissposteconomy-rates-validation" xsi:type="array">
                                                                     <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/economy</item>
                                                                 </item>
-                                                                <item name="swp_priority-rates-validation" xsi:type="array">
+                                                                <item name="swisspostpriority-rates-validation" xsi:type="array">
                                                                     <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/priority</item>
                                                                 </item>
-                                                                <item name="swp_express-rates-validation" xsi:type="array">
+                                                                <item name="swisspostexpress-rates-validation" xsi:type="array">
                                                                     <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/express</item>
                                                                 </item>
-                                                                <item name="swp_mmoon-rates-validation" xsi:type="array">
+                                                                <item name="swisspostmmoon-rates-validation" xsi:type="array">
                                                                     <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/moon</item>
                                                                 </item>
-                                                                <item name="swp_saturday-rates-validation" xsi:type="array">
+                                                                <item name="swisspostsaturday-rates-validation" xsi:type="array">
                                                                     <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/saturday</item>
                                                                 </item>
                                                             </item>
