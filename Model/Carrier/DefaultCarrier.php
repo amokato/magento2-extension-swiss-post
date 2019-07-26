@@ -207,7 +207,7 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
      */
     public function getAllowedMethods()
     {
-        return [ $this->_code => $this->getConfigData('name')];
+        return [ $this->carrier.$this->_code => $this->getConfigData('name')];
     }
 
     /**
