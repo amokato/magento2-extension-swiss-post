@@ -81,7 +81,7 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
         $this->trackFactory = $trackFactory;
         $this->trackStatusFactory = $trackStatusFactory;
         parent::__construct($scopeConfig, $rateErrorFactory, $logger, $data);
-        $this->_code = $this->getCarrier();
+        $this->_code = $this->carrier.$this->getCarrier();
     }
 
     abstract function getCarrier();
@@ -95,10 +95,10 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
         /** @var \Magento\Quote\Model\Quote\Address\RateResult\Method $method */
         $method = $this->rateMethodFactory->create();
 
-        $method->setCarrier($this->carrier.$this->_code);
+        $method->setCarrier($this->_code);
         $method->setCarrierTitle($this->getConfigData('title'));
 
-        $method->setMethod($this->carrier.$this->_code);
+        $method->setMethod($this->_code);
         $method->setMethodTitle($this->getConfigData('name'));
 
         $method->setPrice($shippingPrice);
@@ -207,7 +207,7 @@ abstract class DefaultCarrier extends AbstractCarrier implements CarrierInterfac
      */
     public function getAllowedMethods()
     {
-        return [ $this->carrier.$this->_code => $this->getConfigData('name')];
+        return [ $this->_code => $this->getConfigData('name')];
     }
 
     /**
