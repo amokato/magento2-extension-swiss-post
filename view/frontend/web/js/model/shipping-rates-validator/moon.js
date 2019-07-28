@@ -7,7 +7,7 @@ define(
     [
         'jquery',
         'mageUtils',
-        '../shipping-rates-validation-rules/default',
+        '../shipping-rates-validation-rules/moon',
         'mage/translate'
     ],
     function ($, utils, validationRules, $t) {
